@@ -64,7 +64,7 @@ my-blog
 
 The following animation demonstrates the application functionality:
 
-![A user adds a blog through a form, then the post appears on the following page.](./Assets/images/100-web-apis-challenge-demo.gif)
+![A user adds a blog through a form, then the post appears on the following page.](./Assets/Images/100-web-apis-challenge-demo.gif)
 
 ## Link to deployed application:
 https://esteveza11.github.io/personal-blog/
