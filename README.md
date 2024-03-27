@@ -1,4 +1,4 @@
-# 04 Web APIs: Personal Blog
+# Web APIs: Personal Blog
 
 ## Your Task
 
