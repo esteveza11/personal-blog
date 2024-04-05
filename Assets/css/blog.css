@@ -1,0 +1,87 @@
+main {
+    margin-top: 20px;
+    border-bottom: 10px double black;
+}
+
+#back {
+    position: absolute;
+    display: inline;
+    margin-right: 20px;
+    right: 50px;
+    font-size: 20px;
+    cursor: pointer;
+    background: transparent;
+    border: none;
+    color: var(--text-color);
+}
+
+.blogs {
+    position: relative;
+}
+
+.blog-entry {
+    border: 2px solid black;
+    padding: 2px; 
+    margin: 20px; 
+    background-color: var(--main-color);
+}
+
+.blog-entry button.close-button {
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    top: -10px;
+    right: 10px;
+    background-color: var(--text-color);
+    font-size: 20px;
+    text-align: center;
+    display: none;
+}
+
+.blog-entry:hover button.close-button{
+    background-color: white;
+    border: 2px solid black;
+    color: black;
+    cursor: pointer;
+    display: block;
+}
+
+.blog-entry:hover button.close-button:hover{
+    background-color: rgba(13, 25, 131, 0.945);
+    color: white;
+}
+
+
+.blog-entry h3 {
+    margin-bottom: 10px; 
+    margin-top: auto;
+    border-bottom: 4px solid black; 
+    margin-left: 3px;
+    padding-bottom: 5px;
+    color: var(--text-color);
+    font-size: 18px;; 
+    font-weight: 600; 
+}
+
+.blog-entry p {
+    margin-bottom: 80px; 
+    margin-top: auto;
+    margin-left: 3px;
+    color: var(--text-color);
+    font-size: 18px;;
+    font-weight: 600; 
+    
+}
+
+.blog-entry .postedby {
+    margin-top: auto;
+    margin-bottom: 0;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.footer h3 {
+    display:flex;
+    text-align: center;
+    align-self: baseline;
+}

@@ -1,0 +1,135 @@
+:root {
+    --bg-color: #0f0e17;
+    --second-bg-color: #f3f0f0;
+    --text-color: #0e0b0b;
+    --main-color: #f8f7f5;
+    --background-img-light: url('my-blogpix-lm.png')
+}
+
+.darkMode { 
+    --bg-color: #181818; 
+    --second-bg-color: #121212; 
+    --text-color: #ffffff;
+    --main-color: #181818;
+} 
+
+html {
+    font-size: 62.5%;
+    overflow-x: hidden;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    background-color: var(--second-bg-color);
+    background-image: var(--background-img-light);
+}
+
+p, h3 {
+    position: relative;
+    padding: 10px;
+    font-size: 16px;
+    color: var(--text-color);
+    font-weight: 600;
+    font-size: 20px;
+}
+
+textarea {
+    width: 500px;
+    height: 50px;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 2px solid black;
+    border-radius: 8px;
+    box-sizing: border-box 100px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    background-color: var(--second-bg-color);
+    color: var(--text-color);
+}
+
+.header {
+    background-color: var(--main-color);
+    margin: 1px;
+    padding: 14px;
+    position: relative; 
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: -12px; 
+    width: 100%;
+    border-bottom: 12px double black;
+    z-index: -1; 
+}
+
+.banner { 
+    position: relative;
+    font-size: 40px;
+    color: var(--text-color);
+    font-weight: 600;
+}
+
+.botton-group {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#back {
+    display: none;
+}
+
+#dark-mode-toggle {
+    position: relative;
+    font-size: 45px;
+    color: var(--text-color);
+    cursor: pointer;
+}
+
+.center-line { 
+    position: absolute;
+    left: 50%;
+    top: 91px;
+    bottom: -425px;
+    width: 0;
+    border-left: 12px double black; 
+    content: '';
+}
+
+.page {
+    display: flex;
+    background-color: var(--second-bg-color);
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 10px;
+    min-height: 127vh;
+}
+
+.display-container {
+    margin: 50px auto;
+    width: 100%;
+    text-align: left;
+    flex-wrap: wrap;
+    min-height: calc(80vh - 80px);
+}
+
+.display-img {
+    max-width: 100%;
+} 
+
+footer h3 {
+    width: 100%;
+    justify-content: space-around;
+    display: grid;
+    padding: 0px 0px;
+    background: var(--second-bg-color);
+}

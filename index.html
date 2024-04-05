@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>1Personal Blog</title>
+    <link rel="stylesheet" href="assets/css/styles.css">
+    <link rel="stylesheet" href="assets/css/form.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+
+<body>
+    <header class="header">
+        <h1 class="no banner"></h1>
+        <div class="botton-group">
+            <div class="bx bx-star" id="dark-mode-toggle"><span class="animate" style="--i:2;"></span></div>
+        </div>
+    </header>
+
+    <section class="page" id="page">
+        <div class="center-line"></div>
+        </div>
+        <div class="display-container">
+            <div class="display">
+                <img src="assets/Images/blog-image.png" alt="my first blog image" class="display-img">
+            </div>
+        </div>  
+        <section class="blog-section" id="blog-section">
+            <h2 class="heading">What's On Your Mind?</h2>
+            <form id="blog-form" action="#" method="POST">
+                <div class="input-box">
+                    <p class="inquiry">
+                        <label>Username</label>
+                        <input type="text" id="username" name="username" placeholder="Enter your username" required>
+                    </p>
+
+                    <p class="inquiry">
+                        <label>Title</label>
+                        <input type="text" id="title"  name="title" placeholder="Enter your post title" required>
+                    </p>
+
+                    <p class="inquiry">
+                        <label>Content</label>
+                        <textarea id="content" name="content" form="contentform" placeholder="Write your post content here" required></textarea>
+                    </p>
+
+                    <p class="botton-box">
+                        <button type="submit" class="botton">Submit</button>
+                    </p>
+                </div>
+            </form>
+        </section>
+    </section>
+
+    <footer class="footer">
+        <div class="footer-text">
+        </div>
+    </footer>
+
+    <script src="assets/js/form.js"></script>
+    <script src="assets/js/logic.js"></script>
+    <script src="assets/js/blog.js"></script>
+</body>
+
+</html>

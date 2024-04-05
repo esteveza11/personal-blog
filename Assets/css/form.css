@@ -1,0 +1,138 @@
+.blog-section {
+    display: inline-block;
+    width: 47%;
+    min-height: auto;
+    background: var(--second-bg-color);
+    margin: 60px;
+}
+
+.blog-section button {
+    margin-top: 35px;
+    background-color: black;
+    border: 2px solid black;
+    line-height: 0;
+    font-size: 17px;
+    font-weight: 600;
+    display: inline-block;
+    box-sizing: border-box;
+    padding: 20px 15px;
+    border-radius: 10px;
+    color: white;
+    font-weight: 100;
+    letter-spacing: 0.01em;
+    position: relative;
+    z-index: 1;
+   
+    cursor: pointer;
+    align-items: center;
+    width: 100%;
+}
+
+form {
+    position: relative;
+    display: inline-block;
+    width: 100%;
+    min-width: 500px;
+    box-sizing: border-box;
+    padding: 30px 25px;
+    background-color: #f8f7f5;
+    border: 3px solid var(--main-color);
+    border-radius: 40px;
+    margin: 30px 0;
+    left: 50%;
+    transform: translate(-50%, 0);
+}
+
+.darkMode form {
+    background-color: #0c0b0b;
+    border: 2px solid rgb(238, 243, 238);
+    
+}
+
+h2 {
+    color: black;
+    font-size: 51px;
+    font-weight: 100;
+    letter-spacing: 0.16px;
+    margin-left: 56px;
+    margin-bottom: -33px;
+    text-transform:capitalize;
+}
+
+.darkMode h2 {
+    color: var(--text-color);
+}
+
+.darkMode button {
+    background-color: #404040;
+    color: var(--text-color);
+    border: 1px solid #181818;
+}
+
+.darkMode button:hover,
+.darkMode button:focus {
+    color: var(--text-color);
+    background-color: #181818;
+}
+
+.darkMode label,
+.darkMode footer,
+.darkMode header {
+    color: var(--text-color);
+}
+
+.darkMode input[type="text"] {
+    border: 1px solid var(--bg-color);
+    background-color: #404040;
+    color: var(--text-color);
+}
+
+.darkMode input[type="text"]:focus {
+    background: #181818;
+    color: var(--text-color);
+}
+
+
+input[type="text"] {
+    outline: none;
+    background: none;
+    color: black;
+    margin-top: 5px;
+    border-radius: 8px;
+    width: 489px;
+    height: 13px;
+    padding: 10px 15px;
+    letter-spacing: 0.01em;
+    color: black;
+}
+
+input[type="text"]:valid {
+    margin-top: 30px;
+}
+
+input[type="text"]:focus ~ label {
+    transform: translate(0, -35px);
+}
+
+input[type="text"]:valid ~ label {
+    text-transform:capitalize;
+    font-style:normal;
+    transform: translate(5px, -35px) scale(0.6);
+} */
+
+label {
+    transform-origin: left center;
+    color: black;
+    font-weight: 100;
+    letter-spacing: 0.01em;
+    font-size: 25px; 
+    font-weight: 400;
+    box-sizing: border-box;
+    padding: 10px 10px;
+    display: block;
+    position: absolute;
+    margin-top: -48px; 
+    z-index: 2;
+    pointer-events: none;
+    transition: all 0.25s cubic-bezier(.53,.01,.35,1.5);
+}
